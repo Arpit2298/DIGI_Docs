@@ -1,0 +1,312 @@
+    * {
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .fleft {
+        float: left;
+    }
+    
+    .fright {
+        float: right;
+    }
+    
+    nav ul {
+        display: inline-flex;
+        list-style-type: none;
+        float: right;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 30px 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: rgb(39, 65, 65);
+        margin: 5px 25px;
+    }
+    
+    nav img {
+        width: 150px;
+        margin: 5px 0;
+    }
+    
+    button {
+        padding: 5px;
+        border-radius: 5px 5px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        background-color: #9f72e9;
+    }
+    
+    .mainbox {
+        overflow: auto;
+    }
+    
+    .intro {
+        background-color: #f7f5fc;
+        height: 600px;
+    }
+    
+    .in_main {
+        width: 100%;
+    }
+    
+    .in_dev {
+        width: 50%;
+        margin-top: 40px;
+        float: left;
+    }
+    
+    .in_dev_app_box {
+        margin: 30px 30px 30px 0;
+    }
+    
+    .in_dev h2 {
+        font-size: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #191847;
+        margin: 100px 40px 20px 0;
+        font-weight: 700;
+    }
+    
+    .in_dev span {
+        font-size: 18px;
+    }
+    
+    .in_dev h3 {
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 100px 0 0 50px;
+        color: #191847;
+        font-weight: 500;
+    }
+    
+    .in_dev p {
+        font-size: 18px;
+        text-align: justify;
+        margin: 30px 100px 0 50px;
+        color: rgb(39, 65, 65);
+        font-weight: 500;
+    }
+    
+    .img_box {
+        width: 90%;
+        margin-left: 45px;
+    }
+    
+    body h3 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #191847;
+        font-weight: 500;
+    }
+    
+    body h5 {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: rgb(39, 65, 65);
+        font-weight: 500;
+    }
+    
+    .img_box p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: rgb(39, 65, 65);
+        font-weight: 500;
+    }
+    
+    .img_sub {
+        width: 33.2%;
+        float: left;
+        margin-top: 40px;
+    }
+    
+    .img_sub h4 {
+        color: #191847;
+    }
+    
+    .boxes_mt {
+        margin-top: 80px;
+    }
+    
+    .boxes_left {
+        width: 250px;
+        text-align: right;
+        float: left;
+    }
+    
+    .icon_box {
+        margin: 25px 20px;
+        float: left;
+        color: #6538ad;
+    }
+    
+    .boxes_right {
+        width: 250px;
+        text-align: left;
+        float: right;
+    }
+    
+    .type {
+        clear: both;
+        padding: 30px 0 100px 0;
+        background-color: #f7f5fc;
+    }
+    
+    .type_box {
+        width: 70%;
+        overflow: auto;
+        margin: auto;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .type_box h4 {
+        font-size: 25px;
+        margin: 20px;
+        color: #191847;
+    }
+    
+    .type_box h6 {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    
+    .type_box a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .type_box i {
+        font-size: 60px;
+        margin: 20px;
+        color: #6538ad;
+    }
+    
+    .sub_type_box {
+        width: 350px;
+        height: 300px;
+        color: rgb(39, 65, 65);
+        border-radius: 10px;
+        padding: 0 30px;
+        background-color: rgba(0, 0, 0, 0.068);
+    }
+    
+    .banificial_bar {
+        height: 160px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .product_box {
+        width: 250px;
+        overflow: auto;
+        text-align: center;
+        float: left;
+        color: rgb(39, 65, 65);
+        margin-right: 18px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .banificial_bar img {
+        width: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .purchase_section {
+        padding: 80px;
+        background-color: #f7f5fc;
+    }
+    
+    .purchase_section p {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    .purchase_btn_box {
+        text-align: center;
+    }
+    
+    .purchase_btn {
+        padding: 8px;
+        margin-right: 15px;
+    }
+    /* ............................................................... */
+    
+    footer {
+        width: 100%;
+        height: 400px;
+        background-color: #6538ad;
+        padding-top: 55px;
+    }
+    
+    .contact_row {
+        width: 100%;
+    }
+    
+    .contact_col {
+        float: left;
+        width: 300px;
+        color: white;
+        height: 250px;
+        margin: 14px;
+        line-height: 2;
+    }
+    
+    .contact_col .logo2 {
+        padding-left: 25px;
+    }
+    
+    .contact_col h2 {
+        margin-left: 37px;
+    }
+    
+    .contact_col li {
+        list-style-type: none;
+        cursor: pointer;
+    }
+    
+    .contact_col li:hover {
+        color: black;
+    }
+    
+    .icons ul {
+        margin: 30px -45px;
+    }
+    
+    .icons ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 100%;
+    }
+    
+    .icons ul li a {
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .icons ul li a i {
+        line-height: 30px;
+    }
